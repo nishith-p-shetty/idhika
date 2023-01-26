@@ -5,6 +5,13 @@
   background-color: rgb(241, 242, 243)
 }
 
+@media (max-width: 767px) {
+  #hero {
+    background: none;
+    background-color: rgb(241, 242, 243)
+  }
+}
+
 .bb {
   /* border: 2px solid black; */
   
@@ -28,3 +35,6 @@
   color: white;
 }
 
+#products {
+  background-color: rgb(241, 242, 243)
+}
