@@ -5,27 +5,23 @@
   background-color: rgb(241, 242, 243)
 }
 
+.bb {
+  /* border: 2px solid black; */
+  
+}
+
 .title-idhika {
   font-family: 'Aboreto', cursive;
   font-weight: bolder;
   font-size: 400%;
   
 }
+
 .slogan {
   font-family: 'Explora', cursive;
   font-weight: bold;
   font-size: 400%;
 }
 
-.info-content h3{
-  font-size: x-large;
+#features {
 }
-
-.info-content h4{
-  font-size: larger;
-}
-
-.info-content h5{
-  font-size: large;
-}
-
