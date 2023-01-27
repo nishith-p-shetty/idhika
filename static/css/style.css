@@ -5,18 +5,6 @@
   background-color: rgb(241, 242, 243)
 }
 
-@media (max-width: 767px) {
-  #hero {
-    background: none;
-    background-color: rgb(241, 242, 243)
-  }
-}
-
-.bb {
-  /* border: 2px solid black; */
-  
-}
-
 .title-idhika {
   font-family: 'Aboreto', cursive;
   font-weight: bolder;
@@ -36,4 +24,33 @@
 
 #products {
   background-color: rgb(241, 242, 243)
+}
+
+#contact-us {
+  background-image: url("/static/images/contact-us-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  color: white;
+}
+
+.contact-div {
+  background-color: rgba(0, 0, 0, 0.661);
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  #hero {
+    background: none;
+    background-color: rgb(241, 242, 243)
+  }
+
+  #contact-us {
+    width: 100%;
+  }
+
+  .contact-div {
+    width: 100%;
+  }
 }
