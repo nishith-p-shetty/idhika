@@ -9,7 +9,7 @@
   font-family: 'Aboreto', cursive;
   font-weight: bolder;
   font-size: 400%;
-  
+
 }
 
 .slogan {
@@ -53,4 +53,9 @@
   .contact-div {
     width: 100%;
   }
+}
+
+#about-1 {
+  background-color: black;
+  color: white;
 }
