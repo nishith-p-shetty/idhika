@@ -40,6 +40,23 @@
   width: 50%;
 }
 
+#about-1 {
+  background-color: rgb(241, 242, 243)
+}
+
+.abt-1-a-img {
+  position: absolute;
+  margin-top: 4%;
+  z-index: 5;
+  width: 40%;
+}
+
+#about-3 {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
 @media (max-width: 767px) {
   #hero {
     background: none;
@@ -53,9 +70,11 @@
   .contact-div {
     width: 100%;
   }
-}
 
-#about-1 {
-  background-color: black;
-  color: white;
+  .abt-1-a-img {
+    position: relative;
+    margin-top: 4%;
+    z-index: 5;
+    width: 100%;
+  }
 }
